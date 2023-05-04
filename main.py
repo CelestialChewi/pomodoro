@@ -82,8 +82,8 @@ canvas.grid(column=1, row=1)
 start_button = Button(text="Start", highlightthickness=0, command=start_timer)
 start_button.grid(column=0, row=2)
 
-reset_button = Button(text="Reset", highlightthickness=0)
-reset_button.grid(column=2, row=2, command=reset_timer)
+reset_button = Button(text="Reset", highlightthickness=0, command=reset_timer)
+reset_button.grid(column=2, row=2)
 
 check_marks = Label(fg="#9bdeac", bg="#f7f5dd", font=("Courier", 15))
 check_marks.grid(column=1, row=3)
